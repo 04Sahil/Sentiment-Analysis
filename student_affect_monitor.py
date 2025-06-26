@@ -19,7 +19,7 @@ Quit with Esc or press 'q' in the webcam window.
 import cv2, threading, time, statistics, sys, platform, os
 from collections import Counter
 from deepface import DeepFace
-import mediapipe as mp
+import mediapipe_python as mp
 from pynput import keyboard, mouse
 from scipy.spatial import distance as dist
 import tkinter as tk
