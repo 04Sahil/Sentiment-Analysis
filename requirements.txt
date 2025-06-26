@@ -2,6 +2,6 @@ fastapi
 uvicorn[standard]
 deepface
 opencv-python
-mediapipe-python
+mediapipe_python
 scipy
 numpy
