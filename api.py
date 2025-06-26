@@ -5,7 +5,7 @@ from student_affect_monitor import EAR_THRESH, harmonise, mp_face_mesh, LEFT_EYE
 from deepface import DeepFace
 from scipy.spatial import distance as dist
 
-app = FastAPI(title="Affect-API")
+app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
